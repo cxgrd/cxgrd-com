@@ -39,21 +39,29 @@ const commandFlow = [
     command: "scan",
     summary: "Crawls the repo and builds dependency + symbol graphs.",
     output: "Creates and updates .cg/ graph memory.",
+    image: "/example-scan.png",
+    alt: "CXGRD scan CLI output showing dependency graph and repository scan results",
   },
   {
     command: "input",
     summary: "Analyzes a planned change and computes blast radius.",
     output: "Returns impacted files and architectural dependencies.",
+    image: "/example-input.png",
+    alt: "CXGRD input CLI output showing impacted files and blast radius analysis",
   },
   {
     command: "prompt",
     summary: "Builds an architecture-aware prompt for your AI assistant.",
     output: "Produces enriched prompt context for safer code generation.",
+    image: "/example-prompt.png",
+    alt: "CXGRD prompt CLI output showing architecture-aware prompt generation",
   },
   {
     command: "check",
     summary: "Verifies implementation quality with compiler-backed checks.",
     output: "Flags structural issues before merge or commit.",
+    image: "/example-check.png",
+    alt: "CXGRD check CLI output showing compiler-backed verification results",
   },
 ];
 
@@ -300,6 +308,36 @@ export default function HomeClient() {
           </div>
         </section>
 
+        <section id="how-it-works" className="mt-28 sm:mt-36">
+          <div className="mb-8">
+            <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">How CXGRD works</h2>
+            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
+              A command-first flow that fits naturally into modern AI-assisted coding loops.
+            </p>
+          </div>
+          <div className="mt-15 space-y-6">
+            {commandFlow.map((step) => (
+              <div key={step.command} className="grid items-center gap-5 md:grid-cols-[1.2fr_1fr]">
+                <div className="">
+                  <Image
+                    src={step.image}
+                    alt={step.alt}
+                    width={960}
+                    height={620}
+                    className="h-auto w-full rounded-xl border border-white/5 object-cover"
+                  />
+                </div>
+
+                <article className="feature-card p-6">
+                  <p className="text-sm font-semibold text-blue-200">{step.command}</p>
+                  <p className="mt-2 text-base font-medium text-white">{step.summary}</p>
+                  <p className="mt-2 text-sm text-slate-300">{step.output}</p>
+                </article>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section id="why" className="mt-28 sm:mt-36">
           <div className="mb-8">
             <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">Why teams are interested</h2>
@@ -314,24 +352,6 @@ export default function HomeClient() {
                 <h3 className="text-lg font-semibold text-white">{item.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-slate-300">{item.description}</p>
                 <p className="mt-4 text-xs font-medium uppercase tracking-[0.14em] text-blue-200/80">{item.detail}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section id="how-it-works" className="mt-28 sm:mt-36">
-          <div className="mb-8">
-            <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">How CXGRD works</h2>
-            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
-              A command-first flow that fits naturally into modern AI-assisted coding loops.
-            </p>
-          </div>
-          <div className="mt-15 grid gap-4 md:grid-cols-2">
-            {commandFlow.map((step) => (
-              <article key={step.command} className="feature-card glass-surface rounded-2xl p-6">
-                <p className="text-sm font-semibold text-blue-200">{step.command}</p>
-                <p className="mt-2 text-base font-medium text-white">{step.summary}</p>
-                <p className="mt-2 text-sm text-slate-300">{step.output}</p>
               </article>
             ))}
           </div>
