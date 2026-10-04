@@ -55,7 +55,7 @@ export default function TermsPage() {
 
         <div style={{ marginBottom: '3rem' }}>
           <p style={{ fontSize: '12px', color: '#475569', fontFamily: 'var(--font-geist-mono)', marginBottom: '0.5rem' }}>
-            Last updated: June 22, 2026
+            Last updated: October 4, 2026
           </p>
           <h1 style={{
             fontSize: '24px',
@@ -115,7 +115,7 @@ export default function TermsPage() {
 
         <Section id="third-party" title="6. Third-party dependencies">
           <P>
-            Core elements of CXGRD depend on external providers including GitHub, Supabase, Dodo Payments, Groq, PostHog, Vercel, and UptimeRobot. We are not liable for outages, upstream downtime, data delivery failures, or errors caused directly by these third-party services.
+            Core elements of CXGRD depend on external providers including GitHub, Supabase, Dodo Payments, PostHog, Vercel, and UptimeRobot. We are not liable for outages, upstream downtime, data delivery failures, or errors caused directly by these third-party services.
           </P>
         </Section>
 

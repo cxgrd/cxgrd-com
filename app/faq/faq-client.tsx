@@ -24,7 +24,7 @@ const faqItems = [
   {
     question: "What's the difference between the Free, Pro, and Team plans?",
     answer:
-      'Free covers core blast radius scanning for individual developers. Pro adds AI prompt enrichment and expanded scan limits. Team adds GitHub App integration, CI enforcement, merge policies, audit logs, and a team dashboard for organizations enforcing rules across multiple repos.'
+      'Free covers core blast radius scanning for individual developers. Pro adds deterministic prompt generation and expanded scan limits. Team adds GitHub App integration, CI enforcement, merge policies, audit logs, and a team dashboard for organizations enforcing rules across multiple repos.'
   },
   {
     question: 'Does CXGRD analyze my entire codebase or just the current diff?',
@@ -32,9 +32,9 @@ const faqItems = [
       'CXGRD builds a dependency graph of your codebase and evaluates each change against it, so it can trace impact beyond the literal lines changed — catching downstream effects a diff-only view would miss.'
   },
   {
-    question: 'Is my code sent to a third party or LLM during analysis?',
+    question: 'Is my code sent to a third party or LLM during analysis or prompt generation?',
     answer:
-      'Core blast radius and dependency graph analysis run deterministically without sending code to an LLM. Optional AI prompt enrichment (Pro/Team tiers) uses Groq for that specific feature only.'
+      'No. Dependency graph analysis, blast-radius analysis, and prompt generation run locally and deterministically. Prompt generation does not use an LLM or require an API key.'
   }
 ]
 

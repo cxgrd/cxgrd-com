@@ -21,10 +21,10 @@ const capabilities = [
     detail: "Steer the agent instead of cleaning up after it.",
   },
   {
-    title: "Prompt enrichment for coding agents",
+    title: "Deterministic prompts for coding agents",
     description:
-      "Generate architecture-aware prompts with the right file context instead of relying on temporary agent memory.",
-    detail: "Improves AI output quality on large codebases",
+      "Generate architecture-aware prompts from your request and computed blast radius without an LLM API key.",
+    detail: "Focused file context and actionable verification steps",
   },
   {
     title: "A compiler check, not a second AI",

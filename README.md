@@ -24,7 +24,7 @@ The website is responsible for:
 - Resend-based email handling and webhook processing
 - Supabase-backed authentication and data plumbing
 - PostHog analytics integration
-- Route-level API layer for auth, prompt enrichment, billing, and team operations
+- Route-level API layer for auth, billing, and team operations
 
 ## Tech stack
 
@@ -139,7 +139,6 @@ The app exposes server routes under `app/api` for:
 - `auth` — GitHub OAuth, CLI auth polling, cookie/JWT auth state
 - `billing` — subscription and billing portal operations
 - `check` — verification and entitlement checks
-- `prompt` — LLM prompt enrichment endpoints
 - `teams` — team creation, member sync, install state, merge policy support
 - `webhooks` — GitHub and Dodo webhook handlers
 - `subscribe` — legacy email signup route

@@ -41,7 +41,7 @@ const pricingTiers = [
     period: "month",
     features: [
       "Unlimited audits",
-      "Prompt enrichment & repo memory",
+      "Deterministic prompt generation & repo memory",
       "Advanced analysis features",
       "Cloud backup & sync",
       "Priority support",
