@@ -25,10 +25,19 @@ function renderRichText(text: string) {
 
 const releases = [
   {
-    version: "v1.0.0",
-    date: "August 30, 2026",
+    version: "v1.1.0",
+    date: "October 4, 2026",
     badge: "latest",
     badgeColor: "emerald",
+    changes: [
+      { type: "new", text: "The prompt command now uses a custom deterministic prompt generation engine, which does not require any API key for a LLM" },
+    ],
+  },
+  {
+    version: "v1.0.0",
+    date: "August 30, 2026",
+    badge: null,
+    badgeColor: null,
     changes: [
       { type: "Whats_new", text: "**CXGRD Actions**: The action performs these steps in the repository workspace:\n- Installs the repository's dependencies.\n- Installs the CXGRD CLI globally.\n- Builds or refreshes the dependency graph with `cxgrd scan`.\n- Runs `cxgrd check --json`. \n- Creates or updates a pull request comment with the risk level and affected files." },
       { type: "Whats_stable", text: "**Core commands**: The four commands `scan`, `input`, `prompt` and `check`\n **`--json` flag**: `scan`, `input` and `check` support `--json` flag for Actions script\n **Policy Enforcement**: Merge policy enforcements and team dashboard have been improved with UI/UX fixed\n **CI Token**: CI tokens now stay valid for a month, reducing how often users need to revoke and reissue them"},
