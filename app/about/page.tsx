@@ -105,7 +105,7 @@ export default function AboutPage() {
         <Section id="cta" title="Let's build together">
           <P>
             CXGRD is shaped entirely by the people who use it. If you have a feature request, found a bug, or just want to talk shop about code, my inbox is always open.
-            You can follow my building journey on <Link href="https://x.com/MananSh92557906">X (Twitter)</Link> or check out the project over on <Link href="https://github.com/cxgrd">GitHub</Link>
+            You can follow my building journey on <Link href="https://dev.to/manan_822e7">DEV.to</Link> or check out the project over on <Link href="https://github.com/cxgrd">GitHub</Link>
           </P>
         </Section>
 
