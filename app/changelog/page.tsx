@@ -25,10 +25,20 @@ function renderRichText(text: string) {
 
 const releases = [
   {
-    version: "v1.1.0",
-    date: "October 4, 2026",
+    version: "v1.1.1",
+    date: "October 10, 2026",
     badge: "latest",
     badgeColor: "emerald",
+    changes: [
+      { type: "fixed", text: "Modified openBrowser method to check url protocols" },
+      { type: "improved", text: "Dependencies updated" },
+    ],
+  },
+  {
+    version: "v1.1.0",
+    date: "October 4, 2026",
+    badge: null,
+    badgeColor: null,
     changes: [
       { type: "new", text: "The prompt command now uses a custom deterministic prompt generation engine, which does not require any API key for a LLM" },
     ],
