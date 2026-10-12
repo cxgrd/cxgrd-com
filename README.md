@@ -194,3 +194,7 @@ This app is designed to work well in a Vercel-style deployment environment. Comm
 - Database connectivity for team and auth state
 - Secure webhook validation for GitHub and payment events
 - Correct `SITE_URL` and redirect configuration
+
+
+### Contributing
+If you wish to contribute, read [CONTRIBUTING.md](https://github.com/cxgrd/cli/blob/main/CONTRIBUTING.md)

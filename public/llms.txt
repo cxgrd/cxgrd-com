@@ -1,0 +1,29 @@
+# CXGRD
+
+> CXGRD is a TypeScript CLI that does deterministic blast radius analysis and merge policy enforcement for AI-assisted coding workflows. 
+Before an AI tool (Cursor, Claude Code, Codex, etc.) changes code, CXGRD tells you which files will be affected, how risky the change is, 
+and whether it should be allowed to merge. It complements tests; it does not replace them.
+
+Key facts for agents and LLMs:
+- The CLI is open-core, licensed MIT. Paid features (Pro, Team) add increased audit limit, prompt generation, CI enforcement, merge policies, and a team dashboard.
+- The entire analysis, from building dependency graph to determine blast radius to prompt generation is deterministic. No AI tool used.
+- Core workflow: `scan` -> `input "<change>"` -> `prompt "<change>"` -> make the change -> `check`.
+- Canonical domain is https://www.cxgrd.com. Documentation lives at https://docs.cxgrd.com.
+
+## Product
+
+- [Home](https://www.cxgrd.com/): What CXGRD is and how it fits into an AI coding workflow
+- [Pricing](https://www.cxgrd.com/pricing): Free, Pro, and Team tiers
+- [FAQ](https://www.cxgrd.com/faq): Common questions about determinism, scope, and how CXGRD differs from tests and AI code review
+
+## Documentation
+
+- [Docs home](https://docs.cxgrd.com/): Full documentation
+- [Getting started](https://docs.cxgrd.com/get-started): Install the CLI, authenticate, and run a first scan
+- [CLI reference](https://docs.cxgrd.com/commands/<command>): `scan`, `input`, `prompt`, `check`, and others
+- [llms.txt for docs](https://docs.cxgrd.com/llms.txt): Index of documentation pages for LLMs
+
+## Source and community
+
+- [GitHub](https://github.com/cxgrd/cli): Open-source CLI, issues, and contributing guide
+- [npm](https://www.npmjs.com/package/cxgrd): Published CLI package
