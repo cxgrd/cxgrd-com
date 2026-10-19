@@ -11,6 +11,8 @@ export const metadata: Metadata = {
     url: "/about",
     title: 'About — CXGRD',
     description: 'Learn about the story behind CXGRD, the person who built it, and the philosophy that guides its development.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 };
 

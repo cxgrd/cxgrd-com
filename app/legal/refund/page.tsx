@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     url: "/legal/refund",
     title: 'Refund Policy — CXGRD',
     description: 'CXGRD Refund Policy — Learn about our refund and cancellation policy for subscriptions. Understand the eligibility criteria and how to request a refund.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 };
 

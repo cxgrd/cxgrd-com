@@ -12,6 +12,8 @@ export const metadata : Metadata = {
     url: "/solutions/review-ai-pr",
     title: 'Reviewing AI Pull Requests at Scale — CXGRD',
     description: 'How to review AI-generated pull requests at org level with CXGRD.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 }
 

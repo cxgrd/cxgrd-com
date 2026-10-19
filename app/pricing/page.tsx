@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     url: "/pricing",
     title: 'Pricing — CXGRD',
     description: 'Compare CXGRD plans for blast radius analysis, deterministic prompt generation, and PR merge policy enforcement.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 }
 

@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     url: "/faq",
     title: 'FAQ | CXGRD — Frequently Asked Questions',
     description: 'Find answers to common questions about CXGRD\'s blast radius analysis, deterministic prompt generation, and PR merge policy enforcement.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 }
 

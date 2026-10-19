@@ -15,6 +15,8 @@ export const metadata: Metadata = {
     url: "/changelog",
     title: 'Changelog - CXGRD',
     description: 'Stay up to date with the latest changes and improvements to CXGRD.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 };
 

@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     url: "/legal/terms",
     title: 'Terms & Conditions — CXGRD',
     description: 'CXGRD Terms & Conditions — Learn about our terms of service, user responsibilities, and legal agreements for using CXGRD. Understand your rights and obligations when using our platform.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 };
 

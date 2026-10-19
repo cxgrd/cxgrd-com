@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     url: "/legal/privacy",
     title: 'Privacy Policy — CXGRD',
     description: 'CXGRD Privacy Policy — Learn how we collect, use, and protect your information when you use our services. Your privacy is important to us.',
+    type: 'website',
+    images: '/Homepage.png',
   },
 };
 
