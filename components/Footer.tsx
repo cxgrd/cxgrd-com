@@ -26,7 +26,7 @@ const footerLinks = {
     { label: "GitHub Action", href: "https://github.com/marketplace/actions/cxgrd-blast-radius-check", external: true },
     { label: "Status", href: "https://stats.uptimerobot.com/f3AQQEDMx6" },
     { label: "Release Notes", href: "https://docs.cxgrd.com/release-notes"},
-    { label: "llms.txt", href: "https://cxgrd.com/llms.txt" }
+    { label: "llms.txt", href: "https://www.cxgrd.com/llms.txt" }
   ],
   Company: [
     { label: "About", href: "https://www.cxgrd.com/about" },
