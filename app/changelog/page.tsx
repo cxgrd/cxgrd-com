@@ -10,7 +10,12 @@ export const metadata: Metadata = {
   description: 'Stay up to date with the latest changes and improvements to CXGRD.',
   alternates: {
     canonical: "/changelog",
-  }
+  },
+  openGraph: {
+    url: "/changelog",
+    title: 'Changelog - CXGRD',
+    description: 'Stay up to date with the latest changes and improvements to CXGRD.',
+  },
 };
 
 function renderRichText(text: string) {

@@ -7,7 +7,12 @@ export const metadata : Metadata = {
   description: 'How CXGRD acts as a local guardrail, running compiler checks and structural diffs right after the AI outputs code to catch and reject syntax errors before they ever hit the main branch.',
   alternates: {
     canonical: "/solutions/ai-hallucinations",
-  }
+  },
+  openGraph: {
+    url: "/solutions/ai-hallucinations",
+    title: 'Preventing AI Hallucinations — CXGRD',
+    description: 'How CXGRD acts as a local guardrail, running compiler checks and structural diffs right after the AI outputs code to catch and reject syntax errors before they ever hit the main branch.',
+  },
 }
 
 export default function Page() {

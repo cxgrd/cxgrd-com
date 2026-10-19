@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'Compare CXGRD plans for blast radius analysis, deterministic prompt generation, and PR merge policy enforcement.',
   alternates: {
     canonical: "/pricing",
-  }
+  },
+  openGraph: {
+    url: "/pricing",
+    title: 'Pricing — CXGRD',
+    description: 'Compare CXGRD plans for blast radius analysis, deterministic prompt generation, and PR merge policy enforcement.',
+  },
 }
 
 export default function PricingPage() {

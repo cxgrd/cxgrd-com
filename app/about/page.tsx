@@ -6,7 +6,12 @@ export const metadata: Metadata = {
   description: 'Learn about the story behind CXGRD, the person who built it, and the philosophy that guides its development.',
   alternates: {
     canonical: "/about",
-  }
+  },
+  openGraph: {
+    url: "/about",
+    title: 'About — CXGRD',
+    description: 'Learn about the story behind CXGRD, the person who built it, and the philosophy that guides its development.',
+  },
 };
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (

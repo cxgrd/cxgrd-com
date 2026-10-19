@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'CXGRD Privacy Policy — Learn how we collect, use, and protect your information when you use our services. Your privacy is important to us.',
   alternates: {
     canonical: "/legal/privacy",
-  }
+  },
+  openGraph: {
+    url: "/legal/privacy",
+    title: 'Privacy Policy — CXGRD',
+    description: 'CXGRD Privacy Policy — Learn how we collect, use, and protect your information when you use our services. Your privacy is important to us.',
+  },
 };
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (

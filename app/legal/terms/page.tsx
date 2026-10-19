@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'CXGRD Terms & Conditions — Learn about our terms of service, user responsibilities, and legal agreements for using CXGRD. Understand your rights and obligations when using our platform.',
   alternates: {
     canonical: "/legal/terms",
-  }
+  },
+  openGraph: {
+    url: "/legal/terms",
+    title: 'Terms & Conditions — CXGRD',
+    description: 'CXGRD Terms & Conditions — Learn about our terms of service, user responsibilities, and legal agreements for using CXGRD. Understand your rights and obligations when using our platform.',
+  },
 };
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (

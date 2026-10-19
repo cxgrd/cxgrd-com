@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'Find answers to common questions about CXGRD\'s blast radius analysis, deterministic prompt generation, and PR merge policy enforcement.',
   alternates: {
     canonical: "/faq",
-  }
+  },
+  openGraph: {
+    url: "/faq",
+    title: 'FAQ | CXGRD — Frequently Asked Questions',
+    description: 'Find answers to common questions about CXGRD\'s blast radius analysis, deterministic prompt generation, and PR merge policy enforcement.',
+  },
 }
 
 export default function FAQPage() {

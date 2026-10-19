@@ -7,7 +7,12 @@ export const metadata : Metadata = {
   description: 'How to catch cross-package type breakage from AI-generated code before it merges, using blast radius analysis.',
   alternates: {
     canonical: "/solutions/pacbtm",
-  }
+  },
+  openGraph: {
+    url: "/solutions/pacbtm",
+    title: 'Prevent AI Code From Breaking Types in a Monorepo — CXGRD',
+    description: 'How to catch cross-package type breakage from AI-generated code before it merges, using blast radius analysis.',
+  },
 }
 
 export default function Page() {

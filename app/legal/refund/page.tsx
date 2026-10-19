@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description: 'CXGRD Refund Policy — Learn about our refund and cancellation policy for subscriptions. Understand the eligibility criteria and how to request a refund.',
   alternates: {
     canonical: "/legal/refund",
-  }
+  },
+  openGraph: {
+    url: "/legal/refund",
+    title: 'Refund Policy — CXGRD',
+    description: 'CXGRD Refund Policy — Learn about our refund and cancellation policy for subscriptions. Understand the eligibility criteria and how to request a refund.',
+  },
 };
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (
